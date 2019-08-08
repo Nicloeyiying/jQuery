@@ -1,0 +1,12 @@
+body, div, ul, li, a, img { margin: 0; padding: 0;}
+ul { list-style: none;}
+a, img { display: block;}
+a { -moz-user-select: none; -ms-user-select: none; -webkit-user-select: none;}
+img { border: none;}
+body { padding-top: 50px;}
+.carousel-main { width: 970px; height: 337px; position: relative; margin: 0 auto;}
+.carousel-list { width: 970px; height: 337px; position: absolute; top: 0;}
+.carousel-item { width: 600px; height: 337px; position: absolute; left: 0; top: 0;}
+.btn { width: 100px; height: 337px; position: absolute; cursor: pointer; top: 0; z-index: 10; opacity: 0.8;}
+.btn-prev { left: 0; background: url(../img/btn_l.png) no-repeat center center;}
+.btn-next { right: 0; background: url(../img/btn_r.png) no-repeat center center;}
